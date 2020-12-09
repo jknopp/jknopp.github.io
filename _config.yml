@@ -23,6 +23,8 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
 search: true
+atom_feed:
+  path: "http://feeds.feedburner.com/JonKnopp"
 
 # Build settings
 markdown: kramdown
