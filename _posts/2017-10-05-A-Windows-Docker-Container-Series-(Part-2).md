@@ -1,11 +1,15 @@
 ---
+title: A Windows Docker Container Series (Part 2)
+date: 2017-10-05 02:31:00 -0700
 description: A Windows Docker Container Series (Part 2)
-category: docker
+categories: 
+  - docker
 tags:
   - docker
   - windows
   - visual studio
-title: A Windows Docker Container Series (Part 2)
+# header:
+#    og_image: /assets/images/posts/header/a-windows-docker-container-series-part-2.png
 ---
 
 #### Goals
