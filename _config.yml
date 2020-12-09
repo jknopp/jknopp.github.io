@@ -100,21 +100,17 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
   # _pages
   - scope:
       path: ""
+#       path: "_pages"
       type: pages
     values:
       layout: single
       share: true
-      classes : wide
+      classes: wide
       author_profile: true
-#   - scope:
-#       path: "_pages"
-#       type: pages
-#     values:
-#       layout: single
-#       author_profile: true
 
 category_archive:
   type: liquid
