@@ -1,11 +1,15 @@
 ---
+title: A Windows Docker Container Series (Part 1)
+date: 2017-06-26 04:05:00 -0700
 description: A Windows Docker Container Series (Part 1)
-category: docker
+categories: 
+  - docker
 tags:
   - docker
   - windows
   - packer
-title: A Windows Docker Container Series (Part 1)
+# header:
+#    og_image: /assets/images/posts/header/a-windows-docker-container-series-part-1.png
 ---
 #### Goals
 In order to begin my journey into exploring Docker, I felt the need to incorporate as many of the [12 Factor principles](https://12factor.net) as I could into my development pipeline. I also wanted to have a clean place to get started on a Docker workflow, that was isolated from my normal .NET Development environment so as not to conflict, or pickup and unneeded dependencies. I had heard a lot about Hashicorp, and the tools they build for “provisioning, securing, connecting, and running any infrastructure for any application”. So, I decided I wanted to start there, with a fresh Packer Image that could be built, and reused from “scratch” as many times as I would need.
