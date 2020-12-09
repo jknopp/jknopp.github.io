@@ -1,8 +1,8 @@
 ---
-published: true
-layout: post
-date: 2017-10-06T00:00:00.000Z
-comments: true
+# published: true
+# layout: post
+# date: 2017-10-06T00:00:00.000Z
+# comments: true
 description: A Windows Docker Container Series (Part 2)
 category: docker
 tags:
