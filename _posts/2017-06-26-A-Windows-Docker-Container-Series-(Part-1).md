@@ -39,7 +39,7 @@ After determining I wanted to use Windows Server 2016 as my staring point I bega
 [Packer.io](https://www.packer.io/docs/builders/hyperv-iso.html) had the below template for getting started with Hyper-V (which is what comes by default in Windows 10 Enterprise, so that's what I went with):
 
 ```javascript
-	{
+{
   "builders": [
     {
       "vm_name":"windows2012r2",
