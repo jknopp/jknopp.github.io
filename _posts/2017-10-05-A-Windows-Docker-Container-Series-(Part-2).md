@@ -39,7 +39,7 @@ As noted by the chart, the SQL Server container will not have a Visual Studio pr
 
 #### Should I run Linux Containers or Windows Containers?
 Windows supports the ability to develop and run both Linux-based and Windows-based containers, however, I don't believe there is a way to develop for both simultaneously in the same solution. When starting off I chose Windows-based containers however, I quickly decided this wasn't a good choice and started the solution over as Linux-based. The reason I chose this was because my front-end container is being created in Angular and could benefit from having NodeJS running. Also, being a backend developer by trade, I like the idea that the frontend project would be completely changed, and modified (even ported to another language) without affecting any of the API logic. Trying to install NodeJS fully from Powershell in a Dockerfile was proving extremely cumbersome so I opted for Linux in favor of a simple Bash install:
-```
+``` dockerfile
 RUN apt-get update  
 RUN apt-get -f install  
 RUN apt-get install -y wget gnupg
