@@ -142,7 +142,4 @@ The next steps I would like to take with the projects in this solution are (in n
 * look into swapping the Angular frontend for React frontend based on some feedback from a front-end team-member
 
 
-
 Hope you learned something with me; till next time,
-
-Jon Knopp
