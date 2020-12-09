@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/dark"
+@import "{{ site.theme }}/skins/dark"
 @import "{{ site.theme }}";
 
 table {
