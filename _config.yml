@@ -114,7 +114,7 @@ defaults:
       classes: wide
       author_profile: true
 
-logo: "/assets/icons/android-chrome-96x96.png"
+logo: "/assets/images/header-logo.png"
 
 category_archive:
   type: liquid
