@@ -114,6 +114,8 @@ defaults:
       classes: wide
       author_profile: true
 
+logo: "/assets/icons/android-chrome-96x96.png"
+
 category_archive:
   type: liquid
   path: /categories/
