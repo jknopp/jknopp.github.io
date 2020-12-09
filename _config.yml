@@ -60,10 +60,14 @@ plugins:
   - jekyll-include-cache
 #   - jekyll-algolia
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+author: 
+  name        : "Jon Knopp"
+  bio         : >-
+    Senior Software Engineer @ Laughlin
+#     Microsoft Developer Services MVP, Director at Quicken Loans, Organizer of Desert Code Camp
+  avatar      : "/assets/images/author.jpg"
+  picture     : "/assets/images/author.jpg"
+  location    : "Denver, CO, USA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
