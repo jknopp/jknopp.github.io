@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}/skins/dark";
+@import "{{ site.theme }}";
+
+table {
+    width: 100%;
+    display: table;
+}
+
+div.bmc-btn-container {
+    a.bmc-btn:visited {
+        color: #fff !important;
+    }
+}

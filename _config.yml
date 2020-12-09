@@ -23,6 +23,8 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
 search: true
+atom_feed:
+  path: "http://feeds.feedburner.com/JonKnopp"
 
 # Build settings
 markdown: kramdown
@@ -58,10 +60,14 @@ plugins:
   - jekyll-include-cache
 #   - jekyll-algolia
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+author: 
+  name        : "Jon Knopp"
+  bio         : >-
+    Senior Software Engineer @ Laughlin
+#     Microsoft Developer Services MVP, Director at Quicken Loans, Organizer of Desert Code Camp
+  avatar      : "/assets/images/author.jpg"
+  picture     : "/assets/images/author.jpg"
+  location    : "Denver, CO, USA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -111,6 +117,8 @@ defaults:
       share: true
       classes: wide
       author_profile: true
+
+logo: "/assets/images/header-logo.png"
 
 category_archive:
   type: liquid
