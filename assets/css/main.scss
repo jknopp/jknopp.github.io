@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}/skins/dark"
+@import "{{ site.theme }}/skins/dark";
 @import "{{ site.theme }}";
 
 table {
@@ -11,6 +11,6 @@ table {
 
 div.bmc-btn-container {
     a.bmc-btn:visited {
-        color: #fff !important
+        color: #fff !important;
     }
 }
