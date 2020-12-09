@@ -111,8 +111,8 @@ The final section defines an optional post-processor object. Post-processers are
 
 #### Running Packer
 The brilliance of Packer is in it's simplicity. Once the configuration is complete, all one has to do to create the machine image is the following command from PowerShell using elevated privileges:
-```PowerShell
-	packer build -var 'hyperv_switchname=Ethernet' .\windows_2016_docker.json
+```powershell
+packer build -var 'hyperv_switchname=Ethernet' .\windows_2016_docker.json
 ```
 I specified as a variable my exisitng Hyper-V switch, so that when the machine boots during the install, it is able to connect to the internet for Windows Updates (optional), and various other tasks in the provisioning step.
 
@@ -123,7 +123,4 @@ The next steps I would like to take with packer are (in no particular order):
 * use my [Packer Image Builds in a full CI/CD workflow](https://cloud.google.com/solutions/automated-build-images-with-jenkins-kubernetes) with Jenkins and Kubernetes
 
 
-
-Hope you learned something with me; till next time,
-
-Jon Knopp
+Hope you learned something with me; till next time.
