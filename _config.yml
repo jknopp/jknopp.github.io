@@ -31,6 +31,8 @@ atom_feed:
 
 # Build settings
 markdown: kramdown
+show_excerpts: true
+repository: "jknopp/jknopp.github.io"
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
