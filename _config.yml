@@ -69,7 +69,6 @@ author:
   name        : "Jon Knopp"
   bio         : >-
     Senior Software Engineer @ Laughlin
-#     Microsoft Developer Services MVP, Director at Quicken Loans, Organizer of Desert Code Camp
   avatar      : "/assets/images/author.jpg"
   picture     : "/assets/images/author.jpg"
   location    : "Denver, CO, USA"
@@ -126,7 +125,6 @@ defaults:
       classes: wide
   # _pages
   - scope:
-#       path: ""
       path: "_pages"
       type: pages
     values:
