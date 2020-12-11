@@ -95,21 +95,21 @@ author:
 #     - label: "Youtube"
 #       icon: "fab fa-fw fa-youtube"
 #       url: "https://www.youtube.com/"
-#     - label: "'Coding with JoeG' stream"
+#     - label: "Twitch"
 #       icon: "fab fa-fw fa-twitch"
 #       url: "https://www.twitch.tv/"  
 
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jknopp"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://instagram.com/"
 
 defaults:
   # _posts
