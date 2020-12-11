@@ -1,7 +1,7 @@
 ---
-title: 
+title: Randomly Select Item from Array Based on Frequency
 date: 2020-12-12 10:40:00 -0700
-description: 
+description: JavaScript algorithm to perform random item selection from an array based on a frequency array.
 categories: 
   - javascript
 tags:
