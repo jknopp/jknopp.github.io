@@ -74,7 +74,7 @@ author:
   picture     : "/assets/images/author.jpg"
   location    : "Denver, CO, USA"
   links:
-   - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:owner@jonknopp.com"
     - label: "Website"
