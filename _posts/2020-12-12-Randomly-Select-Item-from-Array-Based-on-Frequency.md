@@ -15,7 +15,7 @@ While working on a clients project to develop a JavaScript game based around the
 
 Doing some research into algorithms, I found the following example on [generating a random number based on an arbitrary probability distribution](https://www.geeksforgeeks.org/random-number-generator-in-arbitrary-probability-distribution-fashion). While this sounds quite complicated, it's really a pretty simple concept. You have 2 sets of data, 1 is the set you are looking to generate randomly from, the other dataset is arbitrary numbers representing the frequency of each item in the first dataset occuring. The number is arbirary because it only determines frequency in relation to the other numbers in the frequency dataset. Bigger numbers occur more than smaller numbers, and this is exactly what we needed to weight our "rarer" objects to occur less often. 
 
-The article had some good insights into how to accomplish the task at hand, while maintaining O(n) complexity. The following code my JavaScirpt implementation of the algorithm along with an example of how it could be used.
+The article had some good insights into how to accomplish the task at hand, while maintaining O(n) complexity. The following code is my JavaScirpt implementation of the algorithm along with an example of how it could be used.
 
 ```javascript
 var test = 1;
