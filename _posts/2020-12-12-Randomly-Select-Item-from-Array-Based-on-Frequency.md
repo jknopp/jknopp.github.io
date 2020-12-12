@@ -18,18 +18,18 @@ Doing some research into algorithms, I found the following example on [generatin
 The article had some good insights into how to accomplish the task at hand, while maintaining O(n) complexity. The following code is my JavaScirpt implementation of the algorithm along with an example of how it could be used.
 
 ```javascript
-// Utility function to find ceiling of {random} in array[start..end]
-function findCeiling(array, random, start, end) {
+// Utility function to find index of {random} in prefix[start..end]
+function findRandomInPrefixArray(prefix, random, start, end) {
     let mid;
     while (start < end) {
         mid = Math.floor((start + end) / 2);
-        if (random > array[mid]) {
+        if (random > prefix[mid]) {
             start = mid + 1;
         } else {
             end = mid;
         }
     }
-    return (array[start] >= random) ? start : -1;
+    return (prefix[start] >= random) ? start : -1;
 }
 
 // Returns a random item from array[]
@@ -48,8 +48,8 @@ export const arrayItemArbitraryProbabilityDistribution = (array, frequency) => {
     // Generate a random number with  
     // value from 1 to this sum  
     const random = ((Math.floor((Math.random() * 323567))) % prefix[size - 1]) + 1;
-    // Find index of ceiling of {random} in prefix array
-    const index = findCeiling(prefix, random, 0, size - 1);
+    // Find find index of {random} in prefix array
+    const index = findRandomInPrefixArray(prefix, random, 0, size - 1);
     return array[index];
 }
 ```
