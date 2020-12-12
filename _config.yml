@@ -63,6 +63,8 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+#   - jekyll-seo-tag
+#   - jekyll-mentions
 #   - jekyll-algolia
 
 author: 
@@ -119,7 +121,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+#       comments: true
       share: true
       related: true
       classes: wide
@@ -141,3 +143,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+year_archive:
+  type: liquid
+  path: /year-archive/
