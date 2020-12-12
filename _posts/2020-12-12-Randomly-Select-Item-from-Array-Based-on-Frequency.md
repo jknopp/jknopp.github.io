@@ -87,3 +87,10 @@ const frequencyOfFallingItems = [2, 4, 8];
 const itemToQueue =
     arrayItemArbitraryProbabilityDistribution(fallingItems, frequencyOfFallingItems);
 ```
+
+We define an array of 3 items: rare, average, and common. Then we assign the frequencies such that 'average' items are twice as likely as 'rare' items, and 'common' items are twice as likely as 'average' items, making them 4 times more likely than 'rare' items. 
+
+Questions, comments or thoughts? Feel free to contact me, or discuss on the [gist](https://gist.github.com/jknopp/18bc605e325742457fbd486c1ab81bf8).
+
+Hope you learned something with me; till next time.
+
