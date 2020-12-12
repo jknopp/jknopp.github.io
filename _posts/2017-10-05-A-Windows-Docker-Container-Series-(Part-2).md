@@ -12,7 +12,6 @@ tags:
 #    og_image: /assets/images/posts/header/a-windows-docker-container-series-part-2.png
 ---
 
-#### Goals
 After [Part 1](https://laughlin.github.io/A-Windows-Docker-Container-Series-(Part-1)) where we created a build template in Packer for a Docker compatible image of Windows Server, capable of running containers, I was inspired by the [West Wind Album Viewer](https://github.com/dockersamples/dotnet-album-viewer) sample project, and decided it was time to start developing a containerized app for the server to run. With [Visual Studio 2017](https://docs.microsoft.com/en-us/aspnet/core/publishing/visual-studio-tools-for-docker) and .NET Framework 4.7, there is native support for running containerized applications with Docker. 
 
 From the [Docker for Windows](https://docs.docker.com/docker-for-windows/install/#download-docker-for-windows) website: "Docker for Windows requires 64bit Windows 10 Pro with Hyper-V available", but I opted for Enterprise which worked fine also. The trick for me was enabling Hyper-V nested virtualization since my Windows 10E image is running in a VM, and also needs the "Virtualization", and "Containerization" Windows Features enabled, which I will cover more on later. Visual Studio 2017 also contains a native template for .NET Core 2.0 Web API Projects with Docker support via Docker Compose. The goal is to combine this with their Angular Template and a Docker SQL Server container to create a 3 container app debuggable from Visual Studio and SSMS.
