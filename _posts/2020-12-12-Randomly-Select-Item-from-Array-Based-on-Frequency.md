@@ -17,6 +17,6 @@ Doing some research into algorithms, I found the following example on [generatin
 
 The article had some good insights into how to accomplish the task at hand, while maintaining O(n) complexity. The following code my JavaScirpt implementation of the algorithm along with an example of how it could be used.
 
-```javascirpt
+```javascript
 var test = 1;
 ```
