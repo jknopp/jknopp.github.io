@@ -10,12 +10,12 @@ tags:
 #    og_image: /assets/images/posts/header/my-cross-platform-development-environment.png
 ---
 
-Here is a list of ohter blogs that I recommend following for any developers in the .NET space.
+Here is a list of other blogs that I recommend following for any developers in the .NET space.
 
-* https://markus.oberlehner.net/
-* https://wildermuth.com/
-* https://ardalis.com/blog
-* https://css-tricks.com/
-* https://jimmybogard.com/
-* https://www.stevejgordon.co.uk/
-* https://nodogmablog.bryanhogan.net/
+* [Markus Oberlehner](https://markus.oberlehner.net/)
+* [Shawn Wildermuth](https://wildermuth.com/)
+* [Steve Smith](https://ardalis.com/blog)
+* [CSS Tricks](https://css-tricks.com/)
+* [Jimmy Bogard](https://jimmybogard.com/)
+* [Steve Gordon](https://www.stevejgordon.co.uk/)
+* [Bryan Hogan](https://nodogmablog.bryanhogan.net/)
