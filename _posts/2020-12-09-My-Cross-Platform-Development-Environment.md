@@ -3,7 +3,7 @@ title: My Cross Platform Development Environment
 date: 2020-12-09 10:40:00 -0700
 description: My Cross Platform Development Environment
 categories: 
-  - docker
+  - Docker
 tags:
   - docker
   - dotnet
