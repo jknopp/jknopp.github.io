@@ -3,7 +3,7 @@ title: A Windows Docker Container Series (Part 2)
 date: 2017-10-05 02:31:00 -0700
 description: A Windows Docker Container Series (Part 2)
 categories: 
-  - docker
+  - Docker
 tags:
   - docker
   - windows
