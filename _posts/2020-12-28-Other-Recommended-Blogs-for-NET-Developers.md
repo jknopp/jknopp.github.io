@@ -21,3 +21,5 @@ Here is a list of other blogs that I recommend following for any developers in t
 * [Steve Gordon](https://www.stevejgordon.co.uk/)
 * [Bryan Hogan](https://nodogmablog.bryanhogan.net/)
 * [Kevin Dockx](https://www.kevindockx.com/?m=all)
+* [Sam Smith](https://samlearnsazure.blog/)
+* [Jon Smith](https://www.thereformedprogrammer.net/)
