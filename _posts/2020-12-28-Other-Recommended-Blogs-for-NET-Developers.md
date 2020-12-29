@@ -23,3 +23,4 @@ Here is a list of other blogs that I recommend following for any developers in t
 * [Kevin Dockx](https://www.kevindockx.com/?m=all)
 * [Sam Smith](https://samlearnsazure.blog/)
 * [Jon Smith](https://www.thereformedprogrammer.net/)
+* [Azure 4 Everyone](https://azure4everyone.com/)
