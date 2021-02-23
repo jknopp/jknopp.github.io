@@ -17,7 +17,7 @@ title: JonKnopp.com
 email: owner@jonknopp.com
 name: Jon Knopp
 description: >- # this means to ignore newlines until "baseurl:"
-  Senior Software Engineer @ Laughlin
+  Solution Lead @ BlueModus
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jonknopp.com" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: America/Denver
